@@ -1,0 +1,28 @@
+{
+  "name": "simple-men-stack-app",
+  "version": "1.0.0",
+  "description": "simple MEN stack app",
+  "main": "server.js",
+  "scripts": {
+    "start": "nodemon server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NyashaNziramasanga/simple-MEN-stack-app.git"
+  },
+  "author": "NyashaNziramasanga <nyashanziramasanga@ymail.com> (http://nyashanziramasanga.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NyashaNziramasanga/simple-MEN-stack-app/issues"
+  },
+  "homepage": "https://github.com/NyashaNziramasanga/simple-MEN-stack-app#readme",
+  "devDependencies": {
+    "nodemon": "^2.0.3"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "mongoose": "^5.9.12"
+  }
+}

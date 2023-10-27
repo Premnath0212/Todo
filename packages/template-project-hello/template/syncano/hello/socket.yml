@@ -1,0 +1,40 @@
+name: hello
+description: Hello World Socket
+
+endpoints:
+  hello:
+    description: Hello world!
+    inputs:
+      properties:
+        firstname:
+          type: string
+          description: First name of the person you want to greet
+          examples:
+            - Tyler
+        lastname:
+          type: string
+          description: Last name of the person you want to greet
+          examples:
+            - Durden
+    outputs:
+      success:
+        description: Success
+        properties:
+          message:
+            description: Hello message
+            examples:
+              - |
+                {
+                  "message": "Hello Tyler Durden!"
+                }
+      fail:
+        exit_code: 400
+        description: Failed
+        properties:
+          message:
+            description: Error message
+            examples:
+              - |
+                {
+                  "message": "You have to send "firstname" and "lastname" arguments!"
+                }

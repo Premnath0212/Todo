@@ -1,0 +1,15 @@
+{
+  "name": "@syncano/template-socket-vanilla",
+  "description": "Vanilla JS (plain JS) Syncano Socket",
+  "version": "0.15.0",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "templateShortDesc": "vanilla",
+  "templateLongDesc": "Vanilla JS Socket"
+}

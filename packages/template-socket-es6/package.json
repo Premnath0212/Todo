@@ -1,0 +1,15 @@
+{
+  "name": "@syncano/template-socket-es6",
+  "description": "ES6 Syncano Socket Template",
+  "version": "0.15.0",
+  "license": "MIT",
+  "main": "index.js",
+  "files": [
+    "template"
+  ],
+  "publishConfig": {
+    "access": "public"
+  },
+  "templateShortDesc": "es6",
+  "templateLongDesc": "ES6 Socket"
+}

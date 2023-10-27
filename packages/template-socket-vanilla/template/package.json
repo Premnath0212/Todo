@@ -1,0 +1,13 @@
+{
+  "name": "hello",
+  "version": "0.0.1",
+  "license": "MIT",
+  "dependencies": {
+    "@syncano/core": "latest"
+  },
+  "scripts": {
+    "build": "compile && compile-env",
+    "build:src": "compile",
+    "build:env": "compile-env"
+  }
+}

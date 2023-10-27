@@ -1,0 +1,34 @@
+{
+  "version": "0.15.0",
+  "packages": [
+    "packages/*"
+  ],
+  "command": {
+    "bootstrap": {
+      "npmClientArgs": [
+        "--no-package-lock"
+      ]
+    },
+    "init": {
+      "exact": true
+    },
+    "publish": {
+      "publish": {
+        "allowBranch": "master"
+      },
+      "exact": true,
+      "ignoreChanges": [
+        "@syncano/registry*"
+      ]
+    }
+  },
+  "changelog": {
+    "repo": "syncano/syncano-node",
+    "labels": {
+      "feature": ":rocket: Feature",
+      "bug": ":bug: Bug Fix",
+      "docs": ":book: Documentation"
+    },
+    "cacheDir": ".changelog"
+  }
+}

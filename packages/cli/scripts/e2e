@@ -1,0 +1,5 @@
+#!/usr/bin/env sh
+
+rm -rf e2e-tests
+rm -rf ~/syncano-test.yml
+mkdir -p e2e-tests/hosting/

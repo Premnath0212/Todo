@@ -1,0 +1,14 @@
+node_modules
+coverage
+.DS_Store
+.idea
+/lib
+/dist
+/example
+npm-debug.log
+*.sublime-*
+coverage.lcov
+.nyc_output
+.envrc
+.vscode
+*.log

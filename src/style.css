@@ -1,0 +1,67 @@
+.container {
+  width: 35%;
+  margin: 10% auto;
+  font-size: 4vh;
+  background-color: rgba(0, 0, 0, 0.06);
+}
+
+.titile {
+  padding: 3px 15px;
+}
+
+.add {
+  background-color: white;
+}
+
+.additem {
+  width: 95%;
+  font-size: 2vh;
+  padding: 10px;
+  border: none;
+}
+
+.item {
+  display: flex;
+  padding: 20px;
+  font-size: 2vh;
+  border-top: 1px solid rgb(197, 195, 195);
+}
+
+.delete-btn {
+  float: right;
+}
+
+.savedItem {
+  width: 100%;
+  margin-right: 2vh;
+  border: none;
+  background: transparent;
+  padding: 8px 2px;
+}
+
+.savedItem:focus {
+  text-decoration: none;
+}
+
+.clear {
+  text-align: center;
+  color: grey;
+  padding: 10px;
+  border-top: 1px solid rgb(252, 245, 245);
+  font-size: 2vh;
+}
+
+.clear button {
+  padding: 20px 25px;
+  border: none;
+  width: 100%;
+}
+
+.clear button:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+  color: rgb(236, 32, 5);
+}
+
+.underline {
+  text-decoration: line-through;
+}
